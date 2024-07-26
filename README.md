@@ -21,15 +21,17 @@ This repository contains a comprehensive approach to sentiment analysis on Twitt
 2. [Dependencies Installation](#dependencies-installation)
 3. [Environment Setup](#environment-setup)
 4. [Data Retrieval and Preprocessing](#data-retrieval-and-preprocessing)
-5. [Exploratory Data Analysis](#exploratory-data-analysis)
-6. [Text Cleaning and Preparation](#text-cleaning-and-preparation)
-7. [Tokenization and Data Structuring](#tokenization-and-data-structuring)
-8. [Sentiment Encoding and Balancing](#sentiment-encoding-and-balancing)
-9. [Model Implementation and Comparison](#model-implementation-and-comparison)
-10. [Results and Insights](#results-and-insights)
-11. [Optimization and Tuning](#optimization-and-tuning)
-12. [Conclusion](#conclusion)
-13. [License](#license)
+5. [Dataset](#dataset)
+6. [Exploratory Data Analysis](#exploratory-data-analysis)
+7. [Text Cleaning and Preparation](#text-cleaning-and-preparation)
+8. [Tokenization and Data Structuring](#tokenization-and-data-structuring)
+9. [Sentiment Encoding and Balancing](#sentiment-encoding-and-balancing)
+10. [Model Implementation and Comparison](#model-implementation-and-comparison)
+11. [Results and Insights](#results-and-insights)
+12. [Optimization and Tuning](#optimization-and-tuning)
+13. [Conclusion](#conclusion)
+14. [License](#license)
+
 
 ## Overview
 This project aims to conduct sentiment analysis on a dataset of tweets related to COVID-19. The analysis leverages the power of advanced natural language processing models, BERT and Naive Bayes, to classify the sentiment of tweets as positive, negative, or neutral.
@@ -67,14 +69,18 @@ drive.mount("/content/drive", force_remount=True)
 
 ## Data Retrieval and Preprocessing
 1. Download the dataset from Kaggle using the command: ``` kaggle datasets download -d datatattle/covid-19-nlp-text-classification ```
-2. Use the provided scripts to preprocess the data. Ensure that the dataset is placed in the appropriate directory for further processing.
+2. Use the provided scripts to preprocess the data.
+3. Ensure that the dataset is placed in the appropriate directory for further processing.
+
 
 ## Dataset
 <p align="center">
   <img src="Coronavirus.jpg" alt="Coronavirus" width="500"/>
 </p>
+
 - The dataset used for this project is the COVID-19 NLP Text Classification dataset available on Kaggle.
-- This dataset contains tweets related to COVID-19, labeled with sentiment categories. You can download it from [this link](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification)
+- This dataset contains tweets related to COVID-19, labeled with sentiment categories. 
+- You can download it from [this link](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification)
 
 ## Exploratory Data Analysis
 Perform an exploratory data analysis (EDA) to understand the dataset and visualize key patterns and distributions. This includes generating summary statistics and visualizing data distributions.
