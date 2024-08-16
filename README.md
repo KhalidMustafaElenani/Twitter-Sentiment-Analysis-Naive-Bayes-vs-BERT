@@ -13,6 +13,11 @@
 ![Build_Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Open_Issues](https://img.shields.io/badge/Issues%20-%200%20-%20orange?style=plastic)
 
+<p align="center">
+  <img src="twitter sentiment analysis.png" alt="Coronavirus" width="500"/>
+</p>
+
+
 ## Introduction
 This repository contains a comprehensive approach to sentiment analysis on Twitter data, utilizing both Naive Bayes and BERT models. The project is divided into two stages: data preprocessing and model application. The primary goal is to transform raw Twitter data into a suitable format for deep learning models and then compare the performance of Naive Bayes and BERT on this processed data.
 
